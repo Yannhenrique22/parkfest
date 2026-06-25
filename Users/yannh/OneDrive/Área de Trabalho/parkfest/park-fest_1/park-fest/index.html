@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Espaço Park Fest — Espaço para eventos e festas</title>
+  <meta name="description" content="Espaço Park Fest: salão amplo e coberto, área gourmet com churrasqueira, piscina e espaço kids. O lugar certo para a sua festa. Reserve sua data pelo WhatsApp." />
+  <meta name="theme-color" content="#14100C" />
+
+  <!-- Open Graph (preview ao compartilhar no WhatsApp/Instagram).
+       IMPORTANTE: depois do deploy, troque as URLs abaixo pelo domínio final da Vercel,
+       ex.: https://espacoparkfest.vercel.app -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Espaço Park Fest — Espaço para eventos e festas" />
+  <meta property="og:description" content="Salão amplo, área gourmet, piscina e espaço kids. O lugar certo para a sua festa." />
+  <meta property="og:image" content="img/img10.jpg" />
+  <meta property="og:url" content="img/img10.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" href="img/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="topo">
+    <div class="nav container">
+      <a class="brand" href="#inicio" aria-label="Espaço Park Fest — início">
+        <img class="brand__logo" src="img/logo.png" alt="Espaço Park Fest" width="52" height="52" />
+      </a>
+
+      <nav class="nav__links" aria-label="Navegação principal">
+        <a href="#sobre">O espaço</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a class="btn btn--primary btn--sm nav__cta"
+         href="https://wa.me/5534996525287?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Espa%C3%A7o%20Park%20Fest%20e%20gostaria%20de%20saber%20sobre%20disponibilidade%20de%20datas"
+         target="_blank" rel="noopener">WhatsApp</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="menu-mobile" id="menuMobile">
+      <a href="#sobre">O espaço</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn--primary"
+         href="https://wa.me/5534996525287?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Espa%C3%A7o%20Park%20Fest%20e%20gostaria%20de%20saber%20sobre%20disponibilidade%20de%20datas"
+         target="_blank" rel="noopener">Reservar pelo WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero__inner container">
+        <p class="eyebrow eyebrow--center" data-animate>Espaço para eventos e festas</p>
+        <h1 class="hero__title" data-animate>O seu evento merece<br />um lugar assim.</h1>
+        <p class="hero__sub" data-animate>
+          Salão amplo, área gourmet, piscina e espaço kids — tudo o que a sua festa
+          precisa, com o charme do Espaço Park Fest.
+        </p>
+        <div class="hero__actions" data-animate>
+          <a class="btn btn--primary"
+             href="https://wa.me/5534996525287?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Espa%C3%A7o%20Park%20Fest%20e%20gostaria%20de%20saber%20sobre%20disponibilidade%20de%20datas"
+             target="_blank" rel="noopener">Reservar minha data</a>
+          <a class="btn btn--ghost" href="#galeria">Ver o espaço</a>
+        </div>
+      </div>
+      <a class="hero__cue" href="#sobre" aria-label="Rolar para baixo">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section class="sobre section" id="sobre">
+      <div class="container sobre__grid">
+        <div class="sobre__text reveal">
+          <p class="eyebrow">O espaço</p>
+          <h2 class="section__title">Tudo pensado<br />para receber bem</h2>
+          <p>
+            No Espaço Park Fest, cada ambiente foi preparado para deixar você e os seus
+            convidados à vontade. Pedra natural, madeira e iluminação aconchegante criam
+            o clima certo para qualquer comemoração.
+          </p>
+          <p>
+            Do almoço em família à grande festa de aniversário, aqui você encontra
+            estrutura completa, conforto e um cenário bonito do dia à noite.
+          </p>
+          <div class="ornament ornament--left"><i></i><span></span><i></i></div>
+        </div>
+        <div class="sobre__media reveal">
+          <div class="frame">
+            <img src="img/img01.jpg" alt="Área gourmet com bancada de granito e churrasqueira" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAIXA / CITAÇÃO ===================== -->
+    <section class="band band--quote" aria-label="Mensagem">
+      <div class="band__inner container">
+        <div class="ornament"><i></i><span></span><i></i></div>
+        <blockquote class="band__quote">
+          Cada festa é única.<br />O nosso espaço foi feito para tornar a sua inesquecível.
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===================== DIFERENCIAIS ===================== -->
+    <section class="features section" id="diferenciais">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--center">Diferenciais</p>
+          <h2 class="section__title section__title--center">Tudo em um só lugar</h2>
+        </header>
+
+        <div class="features__grid">
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 5l9 6"/><path d="M5.5 10.5V19M18.5 10.5V19"/><path d="M5 19h14"/></svg>
+            </span>
+            <h3>Salão amplo e coberto</h3>
+            <p>Bastante espaço, coberto e confortável para acomodar todos os seus convidados.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c.8 2.6 3.6 3.6 3.6 7.2A3.6 3.6 0 0 1 12 13.8a3.6 3.6 0 0 1-3.6-3.6c0-1 .4-1.8 1-2.4C9.6 9.6 9.4 7 12 3Z"/><path d="M7 14a5 5 0 0 0 10 0"/><path d="M6.5 18.5h11"/></svg>
+            </span>
+            <h3>Área gourmet com churrasqueira</h3>
+            <p>Bancada ampla e churrasqueira para preparar o cardápio sem sair da festa.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9c1.8-1.4 3.7-1.4 5.5 0 1.8 1.4 3.7 1.4 5.5 0 1.8-1.4 3.7-1.4 5.5 0"/><path d="M3 14c1.8-1.4 3.7-1.4 5.5 0 1.8 1.4 3.7 1.4 5.5 0 1.8-1.4 3.7-1.4 5.5 0"/><path d="M3 19c1.8-1.4 3.7-1.4 5.5 0 1.8 1.4 3.7 1.4 5.5 0 1.8-1.4 3.7-1.4 5.5 0"/></svg>
+            </span>
+            <h3>Piscina</h3>
+            <p>Uma piscina charmosa para refrescar e deixar os dias de festa ainda melhores.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2.8 0 5 2.4 5 5.4 0 3.4-3 5.6-5 6.6-2-1-5-3.2-5-6.6C7 5.4 9.2 3 12 3Z"/><path d="M12 15v2.5"/><path d="M10.8 21c0-1.3 2.4-1.3 2.4-2.6"/></svg>
+            </span>
+            <h3>Espaço kids</h3>
+            <p>Cama elástica e área externa para a criançada brincar com segurança.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6M9 3v6M7.5 3v18"/><path d="M6 9a1.5 1.5 0 0 0 3 0"/><path d="M16.5 3c2 0 2.6 6 0 9v9"/></svg>
+            </span>
+            <h3>Cozinha equipada</h3>
+            <p>Fogão, geladeira e freezer à disposição para facilitar o preparo.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 13.7 9 19 10.5 13.7 12 12 17.5 10.3 12 5 10.5 10.3 9 12 3.5Z"/><path d="M18.5 16.5l.6 1.9 1.9.6-1.9.6-.6 1.9-.6-1.9-1.9-.6 1.9-.6.6-1.9Z"/></svg>
+            </span>
+            <h3>Ambiente iluminado</h3>
+            <p>Iluminação especial e jardim que transformam o seu evento à noite.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EVENTOS ===================== -->
+    <section class="events section" id="eventos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--center">Ocasiões</p>
+          <h2 class="section__title section__title--center">Para todo tipo de festa</h2>
+        </header>
+        <ul class="events__grid reveal">
+          <li class="event">Aniversários</li>
+          <li class="event">Casamentos &amp; noivados</li>
+          <li class="event">Chá de bebê &amp; revelação</li>
+          <li class="event">Confraternizações</li>
+          <li class="event">Eventos corporativos</li>
+          <li class="event">Batizados &amp; celebrações</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== GALERIA ===================== -->
+    <section class="gallery section" id="galeria">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--center">Galeria</p>
+          <h2 class="section__title section__title--center">Conheça cada cantinho</h2>
+        </header>
+
+        <div class="gallery__grid" id="galleryGrid">
+          <button class="gallery__item" type="button"><img src="img/img10.jpg" alt="Piscina ao entardecer com iluminação de festa" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img06.jpg" alt="Parede de pedra natural no salão principal" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img09.jpg" alt="Piscina e jardim iluminados à noite" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img04.jpg" alt="Salão amplo e coberto com iluminação de festa" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img01.jpg" alt="Área gourmet com bancada de granito e churrasqueira" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img08.jpg" alt="Corredor coberto com iluminação aconchegante à noite" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img07.jpg" alt="Cama elástica na área externa iluminada" loading="lazy" /></button>
+          <button class="gallery__item" type="button"><img src="img/img05.jpg" alt="Salão de eventos do Espaço Park Fest" loading="lazy" /></button>
+
+          <button class="gallery__item is-extra" type="button"><img src="img/img11.jpg" alt="Decoração de aniversário com tema safári" loading="lazy" /></button>
+          <button class="gallery__item is-extra" type="button"><img src="img/img12.jpg" alt="Festa em andamento no Espaço Park Fest" loading="lazy" /></button>
+          <button class="gallery__item is-extra" type="button"><img src="img/img13.jpg" alt="Mesa decorada para aniversário infantil" loading="lazy" /></button>
+          <button class="gallery__item is-extra" type="button"><img src="img/img14.jpg" alt="Mesas postas e prontas para o evento" loading="lazy" /></button>
+          <button class="gallery__item is-extra" type="button"><img src="img/img02.jpg" alt="Parede de pedra natural e acesso aos banheiros" loading="lazy" /></button>
+          <button class="gallery__item is-extra" type="button"><img src="img/img03.jpg" alt="Cozinha equipada com fogão, geladeira e freezer" loading="lazy" /></button>
+        </div>
+
+        <div class="gallery__more-wrap">
+          <button class="btn btn--ghost" id="galleryMore" type="button" aria-expanded="false">Ver mais fotos</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA / CONTATO ===================== -->
+    <section class="cta band" id="contato">
+      <div class="band__inner container">
+        <p class="eyebrow eyebrow--center" data-light>Reservas</p>
+        <h2 class="cta__title">Vamos reservar a sua data?</h2>
+        <p class="cta__sub">
+          Fale com a gente pelo WhatsApp e garanta o Espaço Park Fest para o seu próximo evento.
+        </p>
+        <div class="cta__actions">
+          <a class="btn btn--primary btn--lg"
+             href="https://wa.me/5534996525287?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Espa%C3%A7o%20Park%20Fest%20e%20gostaria%20de%20saber%20sobre%20disponibilidade%20de%20datas"
+             target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.02ZM12.05 20.2a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.39-8.27 8.39Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+            Chamar no WhatsApp
+          </a>
+          <a class="btn btn--ghost btn--lg btn--light"
+             href="https://www.instagram.com/espacoparkfest/" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+            @espacoparkfest
+          </a>
+        </div>
+        <p class="cta__phone">
+          Ou ligue: <a href="tel:+5534996525287">(34) 99652-5287</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img class="footer__logo" src="img/logo.png" alt="Espaço Park Fest" width="64" height="64" />
+        <div>
+          <strong>Espaço Park Fest</strong>
+          <span>Espaço para eventos e festas</span>
+        </div>
+      </div>
+      <nav class="footer__links" aria-label="Contato">
+        <a href="https://www.instagram.com/espacoparkfest/" target="_blank" rel="noopener">Instagram · @espacoparkfest</a>
+        <a href="https://wa.me/5534996525287" target="_blank" rel="noopener">WhatsApp · (34) 99652-5287</a>
+      </nav>
+    </div>
+    <div class="footer__base container">
+      <span>© <span id="year">2026</span> Espaço Park Fest · Todos os direitos reservados</span>
+    </div>
+  </footer>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de foto" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Fechar">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Foto anterior">&#8249;</button>
+    <img class="lightbox__img" id="lbImg" src="" alt="" />
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Próxima foto">&#8250;</button>
+    <p class="lightbox__count" id="lbCount"></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
